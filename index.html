@@ -62,7 +62,7 @@
   </div>
 
 <script>
-// ===== i18n dictionary (FULLY LOCALIZED for all listed languages) =====
+// ===== i18n dictionary (updated: no third-party SDKs, not for minors) =====
 const I18N = {
   "en": {
     language_label: "Language",
@@ -73,14 +73,13 @@ const I18N = {
     footnote: 'Questions? Contact <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
     privacy: `
       <h2>Privacy Policy</h2>
-      <p>This Privacy Policy applies to the mobile application <strong>CKit</strong> ("the App"). We explain how we collect, use, and protect data in line with applicable laws and Google Play policies.</p>
+      <p>This Privacy Policy applies to the mobile application <strong>CKit</strong> ("the App"). We describe how we collect, use, and protect data in line with applicable laws and Google Play policies.</p>
       <h3>Data We Collect</h3>
       <ul>
-        <li><strong>Account information</strong> (if the App supports accounts): email, display name, avatar.</li>
+        <li><strong>Account information</strong> (only if the App provides account features): email, display name, avatar.</li>
         <li><strong>Device &amp; diagnostics</strong>: device model, OS/app version, crash/usage logs.</li>
         <li><strong>Payments</strong>: handled by Google Play Billing; we do not store full payment credentials.</li>
       </ul>
-      <p><em>Replace this section with your actual data flows before release.</em></p>
       <h3>How We Use Data</h3>
       <ul>
         <li>Provide and maintain core features (including license/entitlement checks).</li>
@@ -88,16 +87,16 @@ const I18N = {
         <li>Comply with legal and platform requirements (security &amp; anti-fraud).</li>
       </ul>
       <h3>Third-party SDKs/Services</h3>
-      <p>If you integrate third-party SDKs (e.g., Firebase, Sentry), list each provider, purpose, data types, and link to their privacy policy.</p>
+      <p><strong>We do not integrate any third-party SDKs or external data collection services.</strong></p>
       <h3>Sharing &amp; Transfers</h3>
-      <p>We do not sell personal data. We only share/transfer information with service providers bound by contract, to comply with law, or with your explicit consent.</p>
+      <p>We do not sell personal data. Information is only shared when required by law or with your explicit consent.</p>
       <h3>Retention &amp; Security</h3>
       <ul>
-        <li>Retained only as long as necessary; then deleted or anonymized.</li>
-        <li>Encryption and access controls; transmission over <code>HTTPS</code>.</li>
+        <li>Data is retained only as long as necessary for the stated purposes, then deleted or anonymized.</li>
+        <li>We apply encryption and access controls; data is transmitted over <code>HTTPS</code>.</li>
       </ul>
       <h3>Children</h3>
-      <p>If children may use the App, add the relevant children's privacy terms and ensure compliance.</p>
+      <p><strong>The App is not intended for children under 18.</strong> We do not knowingly collect personal data from minors. If you believe a minor has provided data, contact us to request deletion.</p>
       <h3>Your Rights</h3>
       <p>Subject to law, you may request access, correction, deletion, or withdraw consent. Contact us using the email below.</p>
       <h3>Contact</h3>
@@ -129,14 +128,13 @@ const I18N = {
     footnote: '如有疑问，请联系：<a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>。',
     privacy: `
       <h2>隐私政策</h2>
-      <p>本隐私政策适用于移动应用 <strong>CKit</strong>（以下简称“本应用”）。我们依据适用法律与 Google Play 政策，说明如何收集、使用与保护数据。</p>
+      <p>本隐私政策适用于移动应用 <strong>CKit</strong>（下称“本应用”）。我们依据适用法律与 Google Play 政策，说明如何收集、使用与保护数据。</p>
       <h3>我们收集哪些数据</h3>
       <ul>
-        <li><strong>账户信息</strong>（如有账户体系）：邮箱、昵称、头像。</li>
+        <li><strong>账户信息</strong>（仅在提供账户功能时）：邮箱、昵称、头像。</li>
         <li><strong>设备与诊断</strong>：设备型号、系统/应用版本、崩溃/使用日志。</li>
         <li><strong>支付信息</strong>：由 Google Play 结算处理，我们不保存完整支付凭证。</li>
       </ul>
-      <p><em>发布前请将本节替换为你的真实数据流描述。</em></p>
       <h3>我们如何使用数据</h3>
       <ul>
         <li>提供与维护核心功能（含授权/权益校验）。</li>
@@ -144,16 +142,16 @@ const I18N = {
         <li>遵守法律与平台要求（安全与反欺诈）。</li>
       </ul>
       <h3>第三方 SDK/服务</h3>
-      <p>如集成 Firebase、Sentry 等，请逐一列出厂商、用途、数据类型，并附隐私政策链接。</p>
+      <p><strong>本应用不集成任何第三方 SDK 或外部数据收集服务。</strong></p>
       <h3>数据共享与转移</h3>
-      <p>我们不出售个人数据。仅在与受托服务商的合同约束下、为符合法律或经你同意时共享/转移。</p>
+      <p>我们不出售个人数据。仅在符合法律要求或经你明确同意的情况下共享信息。</p>
       <h3>数据保留与安全</h3>
       <ul>
-        <li>仅在达成目的所需期间内保留；到期后删除或匿名化。</li>
+        <li>仅在达成目的所需期间内保留，到期后删除或匿名化。</li>
         <li>采用加密与访问控制；通过 <code>HTTPS</code> 传输。</li>
       </ul>
       <h3>未成年人</h3>
-      <p>若儿童可能使用本应用，请补充儿童隐私条款并确保合规。</p>
+      <p><strong>本应用不面向未满 18 周岁的未成年人。</strong>我们不会有意收集未成年人的个人数据；如发现，请联系我们删除。</p>
       <h3>你的权利</h3>
       <p>在法律允许范围内，你可请求访问、更正、删除数据，或撤回同意。请通过下方邮箱联系我们。</p>
       <h3>联系我们</h3>
@@ -166,7 +164,7 @@ const I18N = {
       <h3>在应用内删除</h3>
       <p>打开 CKit → 设置 → <strong>删除账号</strong>。删除后，我们将清除与你账号关联的个人数据（法律需保留的数据除外，如反欺诈或账务记录）。</p>
       <h3>无法登录？邮件申请</h3>
-      <p>发送邮件至 <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>，主题写“CKit 账号删除请求”，请附：登录邮箱/账号ID、国家/地区、（可选）设备型号及其他说明。</p>
+      <p>发送邮件至 <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>，主题写“CKit Account Deletion Request”，请附：登录邮箱/账号ID、国家/地区、（可选）设备型号及其他说明。</p>
       <h3>处理时效与保留</h3>
       <ul>
         <li>收到请求后<strong>30 天内</strong>处理（必要时会说明延长原因）。</li>
@@ -185,14 +183,13 @@ const I18N = {
     footnote: 'ご不明点は <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> までお問い合わせください。',
     privacy: `
       <h2>プライバシーポリシー</h2>
-      <p>本プライバシーポリシーは、モバイルアプリ <strong>CKit</strong>（以下「本アプリ」）に適用されます。適用法および Google Play ポリシーに沿って、データの収集・利用・保護方法を説明します。</p>
+      <p>本ポリシーはモバイルアプリ <strong>CKit</strong>（以下「本アプリ」）に適用されます。適用法および Google Play ポリシーに基づき、データの収集・利用・保護方法を説明します。</p>
       <h3>収集するデータ</h3>
       <ul>
         <li><strong>アカウント情報</strong>（アカウント機能がある場合）：メールアドレス、表示名、アバター。</li>
         <li><strong>端末・診断情報</strong>：端末モデル、OS/アプリのバージョン、クラッシュ/利用ログ。</li>
-        <li><strong>決済</strong>：Google Play の課金で処理し、完全な支払い認証情報は保存しません。</li>
+        <li><strong>決済</strong>：Google Play により処理され、完全な支払い認証情報は保存しません。</li>
       </ul>
-      <p><em>リリース前に、実際のデータフローの内容に置き換えてください。</em></p>
       <h3>データの利用目的</h3>
       <ul>
         <li>コア機能の提供・維持（ライセンス/権利の確認を含む）。</li>
@@ -200,33 +197,33 @@ const I18N = {
         <li>法令およびプラットフォーム要件の遵守（セキュリティ・不正防止）。</li>
       </ul>
       <h3>サードパーティ SDK/サービス</h3>
-      <p>Firebase や Sentry などを統合する場合は、提供者、目的、データの種類、各プライバシーポリシーへのリンクを記載してください。</p>
+      <p><strong>本アプリはサードパーティの SDK や外部のデータ収集サービスを統合していません。</strong></p>
       <h3>共有と移転</h3>
-      <p>個人データを販売しません。契約で拘束された委託先、法令遵守、または明示的な同意がある場合にのみ共有/移転します。</p>
+      <p>個人データを販売しません。法令に基づく場合、または明示的な同意がある場合のみ共有します。</p>
       <h3>保存期間とセキュリティ</h3>
       <ul>
-        <li>必要な期間のみ保存し、その後は削除または匿名化します。</li>
+        <li>目的達成に必要な期間のみ保存し、その後は削除または匿名化します。</li>
         <li>暗号化とアクセス制御を実施し、<code>HTTPS</code> で送信します。</li>
       </ul>
       <h3>児童の利用</h3>
-      <p>児童が利用する可能性がある場合は、児童のプライバシー条項を追記し、適切な遵守を行ってください。</p>
+      <p><strong>本アプリは 18 歳未満を対象としていません。</strong>未成年からのデータを故意に収集しません。該当があれば削除を依頼できます。</p>
       <h3>ユーザーの権利</h3>
-      <p>法令の範囲内で、アクセス、更正、削除、同意の撤回を要求できます。下記メールまでご連絡ください。</p>
+      <p>法令の範囲で、アクセス、更正、削除、同意の撤回を要求できます。下記メールまでご連絡ください。</p>
       <h3>連絡先</h3>
       <p>プライバシー窓口：<a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>変更</h3>
-      <p>重要な変更はアプリ内または本ページで告知します。更新後も利用を継続することで、変更に同意したものとみなします。</p>
+      <p>重要な変更はアプリ内または本ページで告知します。更新後も利用を継続することで同意したものとみなします。</p>
     `,
     deletion: `
       <h2>アカウントとデータの削除</h2>
       <h3>アプリ内で削除</h3>
-      <p>CKit を開き、設定 → <strong>アカウント削除</strong> を選択してください。法令で保存が必要な情報（不正対策や請求記録など）を除き、アカウントに紐づく個人データを削除します。</p>
+      <p>CKit → 設定 → <strong>アカウント削除</strong> を選択してください。法令で保存が必要な情報（不正対策や請求記録など）を除き、関連個人データを削除します。</p>
       <h3>サインインできない場合：メールで依頼</h3>
-      <p><a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> 宛に件名「CKit Account Deletion Request」でメールを送信してください。ログインメール/アカウントID、国/地域、（任意）端末モデル、その他詳細を記載してください。</p>
+      <p><a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> 宛に「CKit Account Deletion Request」を件名として送付してください。ログインメール/ID、国/地域、（任意）端末モデル等を記載してください。</p>
       <h3>処理期間と保存</h3>
       <ul>
-        <li>依頼を受領後、<strong>30 日以内</strong>に処理します（延長が必要な場合は理由を説明します）。</li>
-        <li>法令遵守や不正防止のため、一定の情報を保存する場合があります。詳細はプライバシーポリシーを参照してください。</li>
+        <li>受領後<strong>30 日以内</strong>に処理します（延長時は理由を案内）。</li>
+        <li>法令遵守や不正防止のため一部情報を保存する場合があります。詳細はプライバシーポリシー参照。</li>
       </ul>
       <h3>連絡先</h3>
       <p>メール：<a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -241,14 +238,13 @@ const I18N = {
     footnote: '문의: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>',
     privacy: `
       <h2>개인정보 처리방침</h2>
-      <p>본 방침은 모바일 애플리케이션 <strong>CKit</strong>(이하 “앱”)에 적용됩니다. 관련 법령 및 Google Play 정책에 따라 데이터 수집·이용·보호 방법을 설명합니다.</p>
+      <p>본 방침은 모바일 앱 <strong>CKit</strong>에 적용되며, 관련 법령 및 Google Play 정책에 따라 데이터 처리 방식을 설명합니다.</p>
       <h3>수집하는 데이터</h3>
       <ul>
         <li><strong>계정 정보</strong>(계정 기능 제공 시): 이메일, 표시 이름, 아바타.</li>
         <li><strong>디바이스 및 진단 정보</strong>: 기기 모델, OS/앱 버전, 크래시/사용 로그.</li>
-        <li><strong>결제</strong>: Google Play 결제로 처리되며, 완전한 결제 자격 증명은 저장하지 않습니다.</li>
+        <li><strong>결제</strong>: Google Play 결제로 처리되며, 전체 결제 자격 증명은 저장하지 않습니다.</li>
       </ul>
-      <p><em>출시 전에 실제 데이터 흐름으로 본 섹션을 교체하세요.</em></p>
       <h3>데이터 이용 목적</h3>
       <ul>
         <li>핵심 기능 제공 및 유지(라이선스/권한 확인 포함).</li>
@@ -256,33 +252,33 @@ const I18N = {
         <li>법률 및 플랫폼 요구사항 준수(보안 및 부정행위 방지).</li>
       </ul>
       <h3>서드파티 SDK/서비스</h3>
-      <p>Firebase, Sentry 등을 통합하는 경우 제공업체, 목적, 데이터 유형, 해당 개인정보처리방침 링크를 명시하세요.</p>
+      <p><strong>본 앱은 서드파티 SDK나 외부 데이터 수집 서비스를 통합하지 않습니다.</strong></p>
       <h3>공유 및 이전</h3>
-      <p>개인정보를 판매하지 않습니다. 계약으로 구속된 서비스 제공업체, 법 준수, 또는 명시적 동의가 있는 경우에만 공유/이전합니다.</p>
+      <p>개인정보를 판매하지 않습니다. 법적 요건을 충족하기 위해서나 명시적 동의가 있는 경우에만 공유합니다.</p>
       <h3>보관 기간 및 보안</h3>
       <ul>
-        <li>필요한 기간 동안만 보관 후 삭제 또는 익명화합니다.</li>
+        <li>목적 달성에 필요한 기간 동안만 보관 후 삭제 또는 익명화합니다.</li>
         <li>암호화와 접근 제어를 적용하고 <code>HTTPS</code>로 전송합니다.</li>
       </ul>
       <h3>아동</h3>
-      <p>아동이 사용할 수 있는 경우 관련 아동 개인정보 조항을 추가하고 준수해야 합니다.</p>
+      <p><strong>본 앱은 만 18세 미만을 대상으로 하지 않습니다.</strong> 미성년자의 데이터 수집 사실을 인지하면 삭제를 요청할 수 있습니다.</p>
       <h3>이용자의 권리</h3>
-      <p>법령에 따라 열람, 정정, 삭제, 동의 철회를 요청할 수 있습니다. 아래 이메일로 문의해 주세요.</p>
+      <p>법령에 따라 열람, 정정, 삭제, 동의 철회를 요청할 수 있습니다. 아래 이메일로 문의하세요.</p>
       <h3>연락처</h3>
       <p>프라이버시 문의: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>변경</h3>
-      <p>중대한 변경은 앱 내 또는 본 페이지에 공지합니다. 업데이트 이후 계속 사용하면 변경에 동의한 것으로 간주합니다.</p>
+      <p>중대한 변경은 앱 내 또는 본 페이지에 공지합니다. 업데이트 이후 계속 사용하면 동의한 것으로 간주합니다.</p>
     `,
     deletion: `
       <h2>계정 및 데이터 삭제</h2>
       <h3>앱 내에서 삭제</h3>
       <p>CKit → 설정 → <strong>계정 삭제</strong>에서 진행하세요. 법적 보관이 필요한 정보(부정 행위 방지나 청구 기록 등)를 제외하고 계정과 연결된 개인정보를 삭제합니다.</p>
       <h3>로그인 불가 시: 이메일 요청</h3>
-      <p><a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>으로 “CKit Account Deletion Request” 제목의 메일을 보내세요. 로그인 이메일/계정 ID, 국가/지역, (선택) 기기 모델, 기타 내용을 포함하세요.</p>
+      <p><a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>으로 “CKit Account Deletion Request” 제목의 메일을 보내세요. 로그인 이메일/계정 ID, 국가/지역, (선택) 기기 모델을 포함하세요.</p>
       <h3>처리 기간 및 보관</h3>
       <ul>
-        <li>요청 접수 후 <strong>30일 이내</strong> 처리합니다(연장이 필요한 경우 사유를 안내).</li>
-        <li>법률 준수 또는 부정 방지를 위해 일부 정보는 보관될 수 있습니다. 자세한 내용은 개인정보 처리방침을 참조하세요.</li>
+        <li>요청 접수 후 <strong>30일 이내</strong> 처리합니다(연장 사유는 안내).</li>
+        <li>법률 준수 또는 부정 방지를 위해 일부 정보는 보관될 수 있습니다.</li>
       </ul>
       <h3>문의</h3>
       <p>이메일: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -294,51 +290,50 @@ const I18N = {
     subtitle: "Plateforme : Android",
     updated_prefix: "Dernière mise à jour : ",
     tabs: { privacy: "Politique de confidentialité", deletion: "Suppression du compte et des données" },
-    footnote: 'Des questions ? Contactez : <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
+    footnote: 'Des questions ? Contact : <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
     privacy: `
       <h2>Politique de confidentialité</h2>
-      <p>La présente politique s’applique à l’application mobile <strong>CKit</strong> (« l’App »). Nous expliquons comment nous collectons, utilisons et protégeons les données conformément aux lois applicables et aux règles de Google Play.</p>
+      <p>La présente politique s’applique à l’application mobile <strong>CKit</strong>. Nous décrivons la collecte, l’utilisation et la protection des données conformément aux lois applicables et aux règles de Google Play.</p>
       <h3>Données collectées</h3>
       <ul>
-        <li><strong>Informations de compte</strong> (si l’App prend en charge les comptes) : e-mail, nom affiché, avatar.</li>
-        <li><strong>Appareil &amp; diagnostics</strong> : modèle de l’appareil, version de l’OS/de l’app, journaux d’utilisation et de plantage.</li>
+        <li><strong>Informations de compte</strong> (si des comptes sont proposés) : e-mail, nom affiché, avatar.</li>
+        <li><strong>Appareil &amp; diagnostics</strong> : modèle, version de l’OS/de l’app, journaux d’utilisation et d’incident.</li>
         <li><strong>Paiements</strong> : gérés par Google Play Billing ; nous ne stockons pas les identifiants de paiement complets.</li>
       </ul>
-      <p><em>Avant la publication, remplacez cette section par vos flux de données réels.</em></p>
       <h3>Utilisation des données</h3>
       <ul>
-        <li>Fournir et maintenir les fonctionnalités clés (y compris les vérifications de licence/droits).</li>
-        <li>Améliorer la stabilité et l’expérience utilisateur (analytique &amp; diagnostics).</li>
-        <li>Respecter les obligations légales et de plateforme (sécurité &amp; antifraude).</li>
+        <li>Fournir et maintenir les fonctionnalités clés (vérifications de licence/droits).</li>
+        <li>Améliorer la stabilité et l’expérience (analytique &amp; diagnostics).</li>
+        <li>Respecter les exigences légales et de plateforme (sécurité &amp; antifraude).</li>
       </ul>
       <h3>SDK/Services tiers</h3>
-      <p>Si vous intégrez des SDK tiers (ex. : Firebase, Sentry), indiquez chaque fournisseur, la finalité, les types de données et un lien vers leur politique de confidentialité.</p>
+      <p><strong>Aucun SDK tiers ni service externe de collecte de données n’est intégré.</strong></p>
       <h3>Partage &amp; transferts</h3>
-      <p>Nous ne vendons pas de données personnelles. Nous ne partageons/transferons des informations qu’avec des prestataires sous contrat, pour respecter la loi ou avec votre consentement explicite.</p>
+      <p>Nous ne vendons pas de données personnelles. Un partage n’a lieu qu’en cas d’obligation légale ou avec votre consentement explicite.</p>
       <h3>Conservation &amp; sécurité</h3>
       <ul>
-        <li>Conservées uniquement le temps nécessaire, puis supprimées ou anonymisées.</li>
-        <li>Chiffrement et contrôles d’accès ; transmission via <code>HTTPS</code>.</li>
+        <li>Conservation limitée à la durée nécessaire, puis suppression ou anonymisation.</li>
+        <li>Chiffrement, contrôles d’accès ; transfert via <code>HTTPS</code>.</li>
       </ul>
       <h3>Enfants</h3>
-      <p>Si des enfants peuvent utiliser l’App, ajoutez des dispositions spécifiques et assurez la conformité.</p>
+      <p><strong>L’App n’est pas destinée aux moins de 18 ans.</strong> Nous ne collectons pas sciemment de données d’enfants ; contactez-nous pour toute demande de suppression.</p>
       <h3>Vos droits</h3>
-      <p>Dans les limites de la loi, vous pouvez demander l’accès, la rectification, la suppression ou retirer votre consentement. Contactez-nous par e-mail ci-dessous.</p>
+      <p>Selon la loi, vous pouvez demander l’accès, la rectification, la suppression ou retirer votre consentement.</p>
       <h3>Contact</h3>
       <p>Contact confidentialité : <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>Modifications</h3>
-      <p>Les changements importants seront annoncés dans l’App ou sur cette page. L’utilisation continue après mise à jour vaut acceptation.</p>
+      <p>Toute modification importante sera annoncée dans l’App ou sur cette page.</p>
     `,
     deletion: `
       <h2>Suppression du compte et des données</h2>
       <h3>Supprimer dans l’App</h3>
-      <p>Ouvrez CKit → Réglages → <strong>Supprimer le compte</strong>. Nous supprimerons les données personnelles liées à votre compte (sauf les données conservées pour des obligations légales, p. ex. antifraude ou facturation).</p>
+      <p>Ouvrez CKit → Réglages → <strong>Supprimer le compte</strong>. Les données personnelles liées au compte seront supprimées (sauf obligations légales, p. ex. antifraude ou facturation).</p>
       <h3>Impossible de vous connecter ? Demandez par e-mail</h3>
-      <p>Envoyez un e-mail à <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> avec l’objet « CKit Account Deletion Request ». Incluez : e-mail/ID de compte, pays/région, (facultatif) modèle d’appareil, et tout détail utile.</p>
+      <p>Envoyez un e-mail à <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> avec l’objet « CKit Account Deletion Request ».</p>
       <h3>Délais &amp; conservation</h3>
       <ul>
-        <li>Traitement sous <strong>30 jours</strong> après réception (le cas échéant, nous expliquerons toute extension).</li>
-        <li>Certaines informations peuvent être conservées pour des raisons légales ou d’antifraude. Voir la Politique de confidentialité.</li>
+        <li>Traitement sous <strong>30 jours</strong> après réception.</li>
+        <li>Certaines informations peuvent être conservées pour des raisons légales ou d’antifraude.</li>
       </ul>
       <h3>Contact</h3>
       <p>E-mail : <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -353,14 +348,13 @@ const I18N = {
     footnote: 'Fragen? Kontakt: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
     privacy: `
       <h2>Datenschutzerklärung</h2>
-      <p>Diese Erklärung gilt für die mobile App <strong>CKit</strong> ("die App"). Wir erläutern die Erhebung, Nutzung und den Schutz von Daten gemäß geltendem Recht und den Google-Play-Richtlinien.</p>
+      <p>Diese Erklärung gilt für die App <strong>CKit</strong>. Wir erläutern die Erhebung, Nutzung und den Schutz von Daten gemäß geltendem Recht und den Google-Play-Richtlinien.</p>
       <h3>Welche Daten wir erheben</h3>
       <ul>
-        <li><strong>Kontoinformationen</strong> (falls Konten unterstützt werden): E-Mail, Anzeigename, Avatar.</li>
+        <li><strong>Kontoinformationen</strong> (falls vorhanden): E-Mail, Anzeigename, Avatar.</li>
         <li><strong>Geräte- &amp; Diagnosedaten</strong>: Gerätemodell, OS/App-Version, Nutzungs-/Absturzprotokolle.</li>
         <li><strong>Zahlungen</strong>: über Google Play Billing; vollständige Zahlungsdaten speichern wir nicht.</li>
       </ul>
-      <p><em>Ersetzen Sie diesen Abschnitt vor Veröffentlichung durch Ihre tatsächlichen Datenflüsse.</em></p>
       <h3>Wie wir Daten nutzen</h3>
       <ul>
         <li>Bereitstellung und Wartung der Kernfunktionen (inkl. Lizenz-/Berechtigungsprüfungen).</li>
@@ -368,33 +362,33 @@ const I18N = {
         <li>Einhaltung gesetzlicher und plattformspezifischer Anforderungen (Sicherheit &amp; Betrugsprävention).</li>
       </ul>
       <h3>Drittanbieter-SDKs/-Dienste</h3>
-      <p>Bei Integration von Drittanbietern (z. B. Firebase, Sentry) listen Sie Anbieter, Zweck, Datentypen und einen Link zu deren Datenschutzerklärung auf.</p>
+      <p><strong>Es werden keine Drittanbieter-SDKs oder externen Datenerhebungsdienste integriert.</strong></p>
       <h3>Weitergabe &amp; Übermittlungen</h3>
-      <p>Wir verkaufen keine personenbezogenen Daten. Eine Weitergabe/Übermittlung erfolgt nur an vertraglich gebundene Dienstleister, zur Erfüllung rechtlicher Pflichten oder mit Ihrer ausdrücklichen Zustimmung.</p>
+      <p>Keine Veräußerung personenbezogener Daten. Weitergabe nur bei gesetzlicher Pflicht oder mit Ihrer ausdrücklichen Einwilligung.</p>
       <h3>Aufbewahrung &amp; Sicherheit</h3>
       <ul>
-        <li>Nur so lange wie nötig; anschließend Löschung oder Anonymisierung.</li>
+        <li>Speicherung nur so lange wie nötig; anschließend Löschung oder Anonymisierung.</li>
         <li>Verschlüsselung und Zugriffskontrollen; Übertragung über <code>HTTPS</code>.</li>
       </ul>
       <h3>Kinder</h3>
-      <p>Wenn Kinder die App nutzen könnten, fügen Sie entsprechende Bestimmungen hinzu und stellen Sie die Compliance sicher.</p>
+      <p><strong>Die App richtet sich nicht an Personen unter 18 Jahren.</strong> Eine Erhebung von Kinderdaten erfolgt nicht wissentlich; Löschung kann angefordert werden.</p>
       <h3>Ihre Rechte</h3>
-      <p>Im gesetzlichen Rahmen können Sie Auskunft, Berichtigung, Löschung verlangen oder eine Einwilligung widerrufen. Kontaktieren Sie uns per E-Mail unten.</p>
+      <p>Sie können Auskunft, Berichtigung, Löschung verlangen oder eine Einwilligung widerrufen.</p>
       <h3>Kontakt</h3>
       <p>Datenschutzkontakt: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>Änderungen</h3>
-      <p>Wesentliche Änderungen werden in der App oder auf dieser Seite bekanntgegeben. Die fortgesetzte Nutzung nach Updates gilt als Zustimmung.</p>
+      <p>Wesentliche Änderungen werden in der App oder auf dieser Seite bekanntgegeben.</p>
     `,
     deletion: `
       <h2>Konto- &amp; Datenlöschung</h2>
       <h3>In der App löschen</h3>
-      <p>CKit öffnen → Einstellungen → <strong>Konto löschen</strong>. Wir entfernen personenbezogene Daten, die mit Ihrem Konto verknüpft sind (ausgenommen gesetzlich aufzubewahrende Daten, z. B. Betrugs- oder Abrechnungsnachweise).</p>
-      <h3>Keine Anmeldung möglich? Anfrage per E-Mail</h3>
-      <p>Mail an <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> mit Betreff „CKit Account Deletion Request“. Bitte angeben: Login-E-Mail/Konto-ID, Land/Region, (optional) Gerätemodell sowie weitere Details.</p>
+      <p>CKit öffnen → Einstellungen → <strong>Konto löschen</strong>. Personenbezogene Daten werden entfernt (gesetzliche Aufbewahrungspflichten ausgenommen).</p>
+      <h3>Keine Anmeldung möglich? E-Mail</h3>
+      <p>Mail an <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> mit Betreff „CKit Account Deletion Request“.</p>
       <h3>Fristen &amp; Aufbewahrung</h3>
       <ul>
-        <li>Bearbeitung innerhalb von <strong>30 Tagen</strong> nach Eingang (Verlängerungen werden begründet).</li>
-        <li>Bestimmte Informationen können aus rechtlichen Gründen oder zur Betrugsprävention aufbewahrt werden. Details siehe Datenschutzerklärung.</li>
+        <li>Bearbeitung innerhalb von <strong>30 Tagen</strong> nach Eingang.</li>
+        <li>Bestimmte Informationen können aus rechtlichen Gründen aufbewahrt werden.</li>
       </ul>
       <h3>Kontakt</h3>
       <p>E-Mail: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -409,48 +403,47 @@ const I18N = {
     footnote: '¿Preguntas? Escribe a <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
     privacy: `
       <h2>Política de privacidad</h2>
-      <p>Esta política se aplica a la aplicación móvil <strong>CKit</strong> ("la App"). Explicamos cómo recopilamos, usamos y protegemos los datos conforme a las leyes aplicables y a las políticas de Google Play.</p>
+      <p>Esta política se aplica a la app <strong>CKit</strong>. Describimos cómo recopilamos, usamos y protegemos los datos conforme a las leyes aplicables y a las políticas de Google Play.</p>
       <h3>Datos que recopilamos</h3>
       <ul>
-        <li><strong>Información de la cuenta</strong> (si la App admite cuentas): correo electrónico, nombre visible, avatar.</li>
-        <li><strong>Dispositivo y diagnósticos</strong>: modelo del dispositivo, versión del SO/de la app, registros de uso y fallos.</li>
-        <li><strong>Pagos</strong>: gestionados por Google Play Billing; no almacenamos credenciales de pago completas.</li>
+        <li><strong>Información de la cuenta</strong> (si existe): correo electrónico, nombre visible, avatar.</li>
+        <li><strong>Dispositivo y diagnósticos</strong>: modelo, versión del SO/de la app, registros de uso y fallos.</li>
+        <li><strong>Pagos</strong>: gestionados por Google Play Billing; no almacenamos credenciales completas.</li>
       </ul>
-      <p><em>Antes de publicar, reemplace esta sección por sus flujos de datos reales.</em></p>
       <h3>Cómo usamos los datos</h3>
       <ul>
-        <li>Proveer y mantener funciones básicas (incluidas verificaciones de licencia/derechos).</li>
+        <li>Proveer y mantener funciones básicas (verificaciones de licencia/derechos).</li>
         <li>Mejorar la estabilidad y la experiencia (analítica y diagnósticos).</li>
         <li>Cumplir requisitos legales y de plataforma (seguridad y antifraude).</li>
       </ul>
       <h3>SDK/Servicios de terceros</h3>
-      <p>Si integra SDK de terceros (p. ej., Firebase, Sentry), liste cada proveedor, finalidad, tipos de datos y un enlace a su política de privacidad.</p>
+      <p><strong>No integramos SDK de terceros ni servicios externos de recopilación de datos.</strong></p>
       <h3>Compartición y transferencias</h3>
-      <p>No vendemos datos personales. Solo compartimos/transferimos información con proveedores contratados, para cumplir la ley o con su consentimiento explícito.</p>
+      <p>No vendemos datos personales. Solo compartimos cuando la ley lo exige o con su consentimiento explícito.</p>
       <h3>Conservación y seguridad</h3>
       <ul>
-        <li>Conservamos solo el tiempo necesario; luego se eliminan o anonimizan.</li>
+        <li>Conservamos únicamente el tiempo necesario; luego eliminamos o anonimizamos.</li>
         <li>Cifrado y controles de acceso; transmisión mediante <code>HTTPS</code>.</li>
       </ul>
       <h3>Menores</h3>
-      <p>Si menores pueden usar la App, añada los términos correspondientes y garantice el cumplimiento.</p>
+      <p><strong>La App no está dirigida a menores de 18 años.</strong> No recopilamos datos de menores de forma intencionada; puede solicitarnos su eliminación.</p>
       <h3>Sus derechos</h3>
-      <p>Sujeto a la ley, puede solicitar acceso, corrección, eliminación o retirar el consentimiento. Contáctenos al correo abajo.</p>
+      <p>Puede solicitar acceso, corrección, eliminación o retirar el consentimiento, según la ley.</p>
       <h3>Contacto</h3>
-      <p>Contacto de privacidad: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
+      <p>Privacidad: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>Cambios</h3>
-      <p>Los cambios importantes se comunicarán en la App o en esta página. El uso continuado tras las actualizaciones implica aceptación.</p>
+      <p>Los cambios materiales se comunicarán en la app o en esta página.</p>
     `,
     deletion: `
       <h2>Eliminación de cuenta y datos</h2>
       <h3>Eliminar desde la App</h3>
-      <p>Abra CKit → Configuración → <strong>Eliminar cuenta</strong>. Eliminaremos los datos personales vinculados a su cuenta (excepto los conservados por ley, p. ej., antifraude o facturación).</p>
-      <h3>¿No puede iniciar sesión? Solicite por correo</h3>
-      <p>Escriba a <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> con asunto “CKit Account Deletion Request”. Incluya: correo/ID de cuenta, país/región, (opcional) modelo del dispositivo y detalles.</p>
+      <p>Abra CKit → Configuración → <strong>Eliminar cuenta</strong>. Eliminaremos los datos personales vinculados a su cuenta (salvo obligaciones legales).</p>
+      <h3>¿No puede iniciar sesión? Solicítelo por correo</h3>
+      <p>Escriba a <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> con asunto “CKit Account Deletion Request”.</p>
       <h3>Plazos y conservación</h3>
       <ul>
-        <li>Tramitamos las solicitudes en un máximo de <strong>30 días</strong> desde su recepción (explicaremos cualquier extensión si es necesaria).</li>
-        <li>Podemos conservar cierta información por motivos legales o de prevención de fraude. Consulte la Política de privacidad.</li>
+        <li>Tramitamos la solicitud en un máximo de <strong>30 días</strong>.</li>
+        <li>Parte de la información puede conservarse por motivos legales o antifraude.</li>
       </ul>
       <h3>Contacto</h3>
       <p>Correo: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -465,48 +458,47 @@ const I18N = {
     footnote: 'Вопросы? Пишите на <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a>.',
     privacy: `
       <h2>Политика конфиденциальности</h2>
-      <p>Настоящая политика применяется к мобильному приложению <strong>CKit</strong> («Приложение»). Мы объясняем, как собираем, используем и защищаем данные в соответствии с действующим законодательством и правилами Google Play.</p>
+      <p>Настоящая политика применяется к приложению <strong>CKit</strong>. Мы описываем порядок сбора, использования и защиты данных в соответствии с законодательством и правилами Google Play.</p>
       <h3>Какие данные мы собираем</h3>
       <ul>
-        <li><strong>Данные аккаунта</strong> (если поддерживаются аккаунты): e-mail, отображаемое имя, аватар.</li>
-        <li><strong>Устройство и диагностика</strong>: модель устройства, версии ОС/приложения, журналы использования и сбоев.</li>
-        <li><strong>Платежи</strong>: обрабатываются через Google Play Billing; полные платежные реквизиты мы не храним.</li>
+        <li><strong>Данные аккаунта</strong> (если функция доступна): e-mail, отображаемое имя, аватар.</li>
+        <li><strong>Устройство и диагностика</strong>: модель, версия ОС/приложения, журналы использования и сбоев.</li>
+        <li><strong>Платежи</strong>: обрабатываются через Google Play Billing; полные платежные реквизиты не храним.</li>
       </ul>
-      <p><em>Перед выпуском замените этот раздел описанием ваших реальных потоков данных.</em></p>
       <h3>Как мы используем данные</h3>
       <ul>
-        <li>Предоставление и поддержка основных функций (включая проверки лицензий/прав доступа).</li>
+        <li>Предоставление и поддержка основных функций (включая проверку лицензий/прав).</li>
         <li>Улучшение стабильности и удобства (аналитика и диагностика).</li>
         <li>Соблюдение требований закона и платформы (безопасность и предотвращение мошенничества).</li>
       </ul>
       <h3>Сторонние SDK/сервисы</h3>
-      <p>Если вы интегрируете сторонние SDK (например, Firebase, Sentry), укажите поставщика, цель, типы данных и ссылку на его политику конфиденциальности.</p>
+      <p><strong>Мы не интегрируем сторонние SDK и внешние сервисы сбора данных.</strong></p>
       <h3>Обмен и передача</h3>
-      <p>Мы не продаем персональные данные. Обмениваемся/передаем информацию только подрядчикам по договору, для соблюдения закона или с вашего явного согласия.</p>
+      <p>Мы не продаем персональные данные. Передача информации осуществляется только по требованию закона или с вашего явного согласия.</p>
       <h3>Хранение и безопасность</h3>
       <ul>
-        <li>Храним только столько, сколько необходимо; затем удаляем или анонимизируем.</li>
-        <li>Шифрование и контроль доступа; передача по <code>HTTPS</code>.</li>
+        <li>Храним данные только столько, сколько необходимо; затем удаляем или обезличиваем.</li>
+        <li>Используем шифрование и контроль доступа; передача по <code>HTTPS</code>.</li>
       </ul>
       <h3>Дети</h3>
-      <p>Если приложением могут пользоваться дети, добавьте соответствующие условия и обеспечьте соблюдение требований.</p>
+      <p><strong>Приложение не предназначено для лиц младше 18 лет.</strong> Мы не собираем данные детей умышленно; при выявлении данных можно запросить их удаление.</p>
       <h3>Ваши права</h3>
-      <p>В пределах закона вы можете запросить доступ, исправление, удаление данных или отозвать согласие. Свяжитесь с нами по e-mail ниже.</p>
+      <p>Вы можете запросить доступ, исправление, удаление данных или отозвать согласие — в пределах закона.</p>
       <h3>Контакты</h3>
       <p>По вопросам конфиденциальности: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
       <h3>Изменения</h3>
-      <p>Существенные изменения будут объявлены в приложении или на этой странице. Продолжение использования после обновлений означает согласие.</p>
+      <p>О существенных изменениях сообщим в приложении или на этой странице.</p>
     `,
     deletion: `
       <h2>Удаление аккаунта и данных</h2>
       <h3>Удалить в приложении</h3>
-      <p>Откройте CKit → Настройки → <strong>Удалить аккаунт</strong>. Мы удалим персональные данные, связанные с вашим аккаунтом (кроме данных, которые требуется хранить по закону, например для предотвращения мошенничества или учета).</p>
+      <p>Откройте CKit → Настройки → <strong>Удалить аккаунт</strong>. Персональные данные, связанные с аккаунтом, будут удалены (за исключением сведений, которые необходимо хранить по закону).</p>
       <h3>Не удаётся войти? Запрос по e-mail</h3>
-      <p>Напишите на <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> с темой «CKit Account Deletion Request». Укажите: e-mail/ID аккаунта, страну/регион, (по желанию) модель устройства и детали.</p>
+      <p>Напишите на <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a> с темой «CKit Account Deletion Request».</p>
       <h3>Сроки и хранение</h3>
       <ul>
-        <li>Обрабатываем запросы в течение <strong>30 дней</strong> с момента получения (при необходимости объясним продление).</li>
-        <li>Отдельные сведения могут сохраняться для соблюдения закона или предотвращения мошенничества. См. Политику конфиденциальности.</li>
+        <li>Обрабатываем запросы в течение <strong>30 дней</strong> с момента получения.</li>
+        <li>Отдельные сведения могут сохраняться по законодательным требованиям или для предотвращения мошенничества.</li>
       </ul>
       <h3>Контакт</h3>
       <p>E-mail: <a href="mailto:hdlmky@gmail.com">hdlmky@gmail.com</a></p>
@@ -514,16 +506,14 @@ const I18N = {
   }
 };
 
-// Language fallback chain (prefer UI language -> regional variants -> English)
+// Language fallback chain
 const FALLBACKS = ["en"];
 
-// Helper: pick best language, honoring URL ?lang= and navigator.language
 function pickLang() {
   const url = new URL(location.href);
   const urlLang = url.searchParams.get("lang");
   if (urlLang && I18N[urlLang]) return urlLang;
   const nav = (navigator.language || navigator.userLanguage || "en").toLowerCase();
-  // map common prefixes
   if (nav.startsWith("zh")) return "zh-CN";
   if (nav.startsWith("ja")) return "ja";
   if (nav.startsWith("ko")) return "ko";
@@ -535,7 +525,6 @@ function pickLang() {
 }
 
 function resolveDict(lang) {
-  // simple fallback resolution
   return I18N[lang] || I18N["en"];
 }
 
@@ -552,13 +541,11 @@ function setLang(lang) {
   document.getElementById("panel-privacy").innerHTML = dict.privacy;
   document.getElementById("panel-deletion").innerHTML = dict.deletion;
   document.getElementById("footnote").innerHTML = dict.footnote;
-  // persist in URL
   const url = new URL(location.href);
   url.searchParams.set("lang", lang);
   history.replaceState(null, "", url.toString());
 }
 
-// tabs
 function setTab(which) {
   const tabs = ["privacy","deletion"];
   tabs.forEach(t => {
@@ -566,7 +553,6 @@ function setTab(which) {
     document.getElementById("tab-"+t).setAttribute("aria-selected", selected ? "true" : "false");
     document.getElementById("panel-"+t).style.display = selected ? "block" : "none";
   });
-  // persist in hash
   const url = new URL(location.href);
   url.hash = which;
   history.replaceState(null, "", url.toString());
