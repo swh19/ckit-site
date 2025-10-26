@@ -547,7 +547,8 @@ function setLang(lang) {
   // ★ 新增：动态版权（仅使用 hdlmky，不显示真实姓名）
   const year = new Date().getFullYear();
   document.getElementById("copyright").textContent =
-    `© ${year} hdlmky. All rights reserved.`;
+  `© ${year} hdlmky · CKit™ by hdlmky · All rights reserved.`;
+
 
   const url = new URL(location.href);
   url.searchParams.set("lang", lang);
